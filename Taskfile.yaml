@@ -1,0 +1,9 @@
+version: "3"
+
+tasks:
+  generate:
+    aliases:
+      - storage
+    desc: "Run migrations"
+    cmds:
+      - go run ./cmd/migrator --storage-path=./storage/auth.db --migrationa-path=./migrations
