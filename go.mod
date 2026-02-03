@@ -8,7 +8,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.19.1
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/mattn/go-sqlite3 v1.14.33
-	github.com/nastyazhadan/protos v0.0.2
+	github.com/nastyazhadan/protos v0.0.3
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/crypto v0.47.0
 	google.golang.org/grpc v1.78.0
@@ -17,6 +17,7 @@ require (
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.3 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	golang.org/x/net v0.48.0 // indirect
